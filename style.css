@@ -2,18 +2,32 @@
 h1 {
     font-family: 'Star Jedi', arial;
     color: Yellow;
+    font-size: 1em;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+
 }
 
 main {
-display: grid;
-grid-template-columns: repeat (auto-fit, minmax(320px, 1fr));
-grid-gap: 2rem;
-width: 100%;
-max-width: 1280px;
-margin: 0 auto;
-margin-bottom: 6rem;
-}
+  /*display: grid;
+  grid-template-columns: repeat (auto-fit, minmax(320px, 1fr));
+  grid-gap: 2rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  */
+  }
 
+  button {
+      font-size: 1.5rem;
+      padding: 20 px;
+      border-radius: 10% / 50%;
+      background-color: Yellow;
+  }
 
   body {
     background-image: url("space.jpg");
@@ -22,3 +36,10 @@ margin-bottom: 6rem;
     color:white; 
     font-size: 30px;
   }
+
+
+.starwarsCharacter{
+  float:left;
+  padding: calc(10% / 6);
+  width : 30%;
+}
